@@ -1,1 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">dmt</string>
 
+    <!-- Navegação -->
+    <string name="nav_listen">Ouvir</string>
+    <string name="nav_library">Biblioteca</string>
+    <string name="nav_settings">Configurações</string>
+    <string name="nav_back">Voltar</string>
+
+    <!-- Abas da biblioteca -->
+    <string name="library_tab_tracks">Faixas</string>
+    <string name="library_tab_albums">Álbuns</string>
+    <string name="library_tab_artists">Artistas</string>
+    <string name="library_tab_genres">Gêneros</string>
+    <string name="library_tab_folders">Pastas</string>
+    <string name="library_tab_playlists">Playlists</string>
+
+    <!-- Android Auto -->
+    <string name="auto_tracks">Faixas</string>
+    <string name="auto_albums">Álbuns</string>
+    <string name="auto_artists">Artistas</string>
+    <string name="auto_folders">Pastas</string>
+    <string name="auto_shuffle">Aleatório</string>
+    <string name="auto_repeat">Repetir</string>
+
+    <!-- Coleções -->
+    <string name="collection_genre">Gênero</string>
+    <string name="collection_playlist">Playlist</string>
+
+    <!-- Contagens -->
+    <string name="count_tracks_none">Nenhuma faixa</string>
+    <plurals name="count_tracks">
+        <item quantity="one">%1$d faixa</item>
+        <item quantity="other">%1$d faixas</item>
+    </plurals>
+    <plurals name="count_albums">
+        <item quantity="one">%1$d álbum</item>
+        <item quantity="other">%1$d álbuns</item>
+    </plurals>
+    <plurals name="count_plays">
+        <item quantity="one">%1$d reprodução</item>
+        <item quantity="other">%1$d reproduções</item>
+    </plurals>
+
+    <!-- Início -->
+    <string name="home_greeting_morning">Bom dia</string>
+    <string name="home_greeting_afternoon">Boa tarde</string>
+    <string name="home_greeting_evening">Boa noite</string>
+    <string name="home_greeting_night">Madrugada</string>
+    <string name="home_greeting_together">%1$s juntos, %2$s até agora.</string>
+    <plurals name="home_greeting_waiting">
+        <item quantity="one">%1$d faixa esperando para ser ouvida.</item>
+        <item quantity="other">%1$d faixas esperando para serem ouvidas.</item>
+    </plurals>
+    <string name="home_shuffle_all">Reproduzir tudo aleatoriamente</string>
+    <string name="home_see_library">Ver toda a biblioteca</string>
+    <string name="home_on_repeat">Mais reproduzidas</string>
+    <string name="home_recent">Adicionadas recentemente</string>
+    <string name="home_artists">Seus artistas</string>
+    <string name="home_most_played">Mais tocadas</string>
+    <string name="home_not_heard">Ainda não ouvidas</string>
+    <string name="home_empty_title">Nada por aqui ainda</string>
+    <string name="home_empty_action">Escolher uma fonte</string>
+
+    <!-- Pesquisa -->
+    <string name="search_hint">Músicas, álbuns, artistas</string>
+    <string name="search_clear">Limpar pesquisa</string>
+    <string name="search_no_match_title">Nenhum resultado</string>
+    <string name="search_no_match_body">Nada na sua biblioteca corresponde a “%1$s”.</string>
+
+    <!-- Biblioteca -->
+    <string name="library_scanning">Lendo sua biblioteca</string>
+    <string name="library_empty_local">Nenhuma faixa encontrada neste dispositivo. Faça uma nova varredura nas Configurações ou troque a fonte.</string>
+    <string name="library_scan_failed_local">Não foi possível ler as músicas deste dispositivo. Verifique as permissões e tente novamente.</string>
+    <string name="library_cue_tag">Cue</string>
+    <string name="library_cue_from">De uma folha cue</string>
+
+    <!-- Ordenação -->
+    <string name="sort_by">Ordenar por %1$s</string>
+    <string name="sort_sheet_title">Ordenar faixas por</string>
+    <string name="sort_title">Título</string>
+    <string name="sort_artist">Artista</string>
+    <string name="sort_date_added">Data de adição</string>
+    <string name="sort_date_modified">Data de modificação</string>
+    <string name="sort_recent">Recentes</string>
+
+    <!-- Playlists -->
+    <string name="playlist_empty">Nenhuma playlist ainda. Crie uma para um momento, uma viagem ou alguém especial.</string>
+    <string name="playlist_new_title">Nova playlist</string>
+    <string name="playlist_name_hint">Dê um nome a ela</string>
+    <string name="playlist_create">Criar</string>
+    <string name="playlist_add">Adicionar</string>
+    <string name="playlist_remove">Remover da playlist</string>
+    <string name="playlist_add_tracks_title">Adicionar faixas</string>
+    <string name="playlist_pick_title">Adicionar à playlist</string>
+    <string name="playlist_pick_empty">Nenhuma playlist ainda. Crie uma na Biblioteca.</string>
+
+    <!-- Ações de faixa -->
+    <string name="action_play">Reproduzir</string>
+    <string name="action_delete">Excluir</string>
+    <string name="action_play_next">Reproduzir a seguir</string>
+    <string name="action_add_to_queue">Adicionar à fila</string>
+    <string name="action_add_to_playlist">Adicionar à playlist</string>
+    <string name="action_go_to_album">Ir para o álbum</string>
+    <string name="action_go_to_artist">Ir para o artista</string>
+    <string name="action_queue">Fila</string>
+    <string name="notice_queued">Adicionado à fila: %1$s</string>
+    <string name="notice_playing_next">Será reproduzida a seguir: %1$s</string>
+
+    <!-- Reprodutor -->
+    <string name="player_tab_playing">Reproduzindo</string>
+    <string name="player_tab_details">Detalhes</string>
+    <string name="player_close">Fechar reprodutor</string>
+    <string name="player_play">Reproduzir</string>
+    <string name="player_pause">Pausar</string>
+    <string name="player_next">Próxima</string>
+    <string name="player_previous">Anterior</string>
+    <string name="player_shuffle">Aleatório</string>
+    <string name="player_repeat">Repetir</string>
+    <string name="player_lyrics">Letras</string>
+    <string name="player_track_info">Sobre esta faixa</string>
+    <string name="quality_lossless">Sem perdas</string>
+    <string name="quality_hi_res">Alta resolução sem perdas</string>
+    <string name="quality_dolby">Dolby</string>
+    <string name="quality_dolby_atmos">Dolby Atmos</string>
+
+    <!-- Temporizador -->
+    <string name="sleep_title">Temporizador</string>
+    <string name="sleep_off">Desativado</string>
+    <string name="sleep_hour">1 hora</string>
+    <string name="sleep_song_end">Fim da música</string>
+    <string name="sleep_minutes">%1$d min</string>
+    <string name="sleep_on_left">Ativo · faltam %1$d min</string>
+    <string name="sleep_on_song_end">Ativo · até o fim da música</string>
+    <string name="sleep_stops_at">Para às %1$s</string>
+    <string name="sleep_stops_after_song">Para após a música que estiver tocando às %1$s</string>
+    <string name="sleep_stops_at_song_end">Para quando esta música terminar</string>
+    <string name="sleep_start">Iniciar temporizador · %1$s</string>
+    <string name="sleep_update">Atualizar temporizador · %1$s</string>
+    <string name="sleep_turn_off">Desativar</string>
+    <string name="sleep_finish_song">Terminar a música</string>
+    <string name="sleep_finish_song_hint">Aguarda a música terminar e depois reduz o volume gradualmente</string>
+    <string name="sleep_fades_hint">Reduz o volume gradualmente nos últimos 10 segundos</string>
+    <string name="sleep_shorter">Menos</string>
+    <string name="sleep_longer">Mais</string>
+
+    <!-- Velocidade de reprodução -->
+    <string name="speed_title">Velocidade de reprodução</string>
+    <string name="speed_value" translatable="false">%1$s×</string>
+    <string name="speed_slower">Mais lenta</string>
+    <string name="speed_faster">Mais rápida</string>
+    <string name="speed_reset">Voltar à velocidade normal</string>
+    <string name="speed_normal">Normal</string>
+    <string name="speed_song_length">Esta música: %1$s → %2$s</string>
+    <string name="speed_keep_pitch">Manter tom</string>
+    <string name="speed_keep_pitch_hint">Desativado, velocidades maiores deixam o som mais agudo</string>
+
+    <!-- Fila -->
+    <string name="queue_title">A seguir</string>
+    <plurals name="queue_up_next">
+        <item quantity="one">A seguir · %1$d faixa</item>
+        <item quantity="other">A seguir · %1$d faixas</item>
+    </plurals>
+    <string name="queue_remove">Remover da fila</string>
+    <string name="queue_clear">Limpar</string>
+    <string name="queue_empty_title">Nada na fila</string>
+    <string name="queue_empty_body">Escolha Reproduzir a seguir ou Adicionar à fila em qualquer faixa, álbum ou playlist para colocá-lo aqui.</string>
+    <string name="queue_reorder">Arraste para reordenar</string>
+    <string name="queue_shuffled_hint">Desative o modo aleatório para reordenar.</string>
+
+    <!-- Letras -->
+    <string name="lyrics_none_title">Ainda não há letras</string>
+    <string name="lyrics_none_body">A fonte atual não fornece letras para esta faixa. Escolha outra fonte ou busque online no LRCLIB ou lrc.red.</string>
+    <string name="lyrics_source_title">Fonte das letras</string>
+    <string name="lyrics_fetching">Buscando</string>
+    <string name="lyrics_from">Fonte: %1$s</string>
+    <string name="lyrics_romanized">Romanizadas</string>
+    <string name="lyrics_source_embedded">Incorporadas</string>
+    <string name="lyrics_source_embedded_hint">Salvas nas tags da faixa</string>
+    <string name="lyrics_source_local">Arquivo local</string>
+    <string name="lyrics_source_local_hint">Um arquivo .ttml, .lrc ou .txt junto da faixa</string>
+    <string name="lyrics_source_lrclib">LRCLIB</string>
+    <string name="lyrics_source_lrclib_hint">Obtidas em lrclib.net</string>
+    <string name="lyrics_source_lrc_red">lrc.red</string>
+    <string name="lyrics_source_lrc_red_hint">Obtidas em lrc.red, com sincronização por palavra quando disponível</string>
+    <string name="lyrics_source_missing">Nenhuma</string>
+    <string name="lyrics_source_tap">Toque para buscar</string>
+    <string name="lyrics_source_none_online">Nada encontrado</string>
+    <string name="lyrics_source_unreachable">Não foi possível acessar</string>
+    <string name="lyrics_timing_word">Sincronizada por palavra</string>
+    <string name="lyrics_timing_line">Sincronizada por linha</string>
+    <string name="lyrics_timing_plain">Texto simples</string>
+
+    <!-- Campos da faixa -->
+    <string name="track_field_title">Título</string>
+    <string name="track_field_artist">Artista</string>
+    <string name="track_field_album">Álbum</string>
+    <string name="track_field_genre">Gênero</string>
+    <string name="track_field_length">Duração</string>
+    <string name="track_field_location">Localização</string>
+
+    <!-- Detalhes da faixa -->
+    <string name="chain_file">Arquivo</string>
+    <string name="chain_decoder">Decodificador</string>
+    <string name="chain_speed">Velocidade</string>
+    <string name="chain_output">Saída</string>
+    <string name="chain_device">Dispositivo</string>
+    <string name="spec_format">Formato</string>
+    <string name="spec_bit_depth">Profundidade de bits</string>
+    <string name="spec_sample_rate">Taxa de amostragem</string>
+    <string name="spec_channels">Canais</string>
+    <string name="spec_bitrate">Taxa de bits</string>
+    <string name="spec_vbr">Taxa de bits variável</string>
+    <string name="spec_gapless">Sem intervalos</string>
+    <string name="spec_size">Tamanho</string>
+    <string name="spec_codec">Codec</string>
+    <string name="spec_hardware">Hardware</string>
+    <string name="spec_provider">Provedor</string>
+    <string name="spec_instance">Instância</string>
+    <string name="spec_output_path">Caminho</string>
+    <string name="spec_buffer">Buffer</string>
+    <string name="spec_mode">Modo</string>
+    <string name="spec_route">Rota</string>
+    <string name="spec_device">Dispositivo</string>
+    <string name="spec_rates">Taxas compatíveis</string>
+    <string name="spec_encodings">Codificações</string>
+    <string name="spec_speed">Reproduzindo a</string>
+
+    <!-- Erros e notificações -->
+    <string name="playback_error">Reprodução interrompida: %1$s</string>
+    <string name="playback_unsupported">Este dispositivo não possui um decodificador para %1$s</string>
+    <string name="notification_channel_playback">Reprodução</string>
+    <string name="notification_resume_title">Não foi possível iniciar a reprodução</string>
+    <string name="notification_resume_text">O Android impediu o início da reprodução em segundo plano. Toque para abrir o dmt e pressione reproduzir.</string>
+
+    <!-- Configurações -->
+    <string name="settings_section_playback">Reprodução</string>
+    <string name="settings_section_look">Aparência</string>
+    <string name="settings_section_library">Biblioteca</string>
+    <string name="settings_section_about">Sobre</string>
+    <string name="settings_volume_levelling">Nivelamento de volume</string>
+    <string name="settings_volume_levelling_hint">Equilibra o volume entre as faixas</string>
+    <string name="settings_stop_on_dismiss">Parar ao fechar</string>
+    <string name="settings_stop_on_dismiss_hint">Encerra a reprodução quando o dmt é removido dos aplicativos recentes</string>
+    <string name="settings_equalizer">Equalizador</string>
+    <string name="settings_accent">Cor de destaque</string>
+    <string name="settings_animated_art">Capas animadas</string>
+    <string name="settings_animated_art_hint">Reproduz capas animadas quando disponíveis</string>
+    <string name="settings_animated_art_info">As capas animadas vêm de um serviço online de artes. Cada uma é transmitida durante a reprodução e nunca é salva no dispositivo, portanto usa dados toda vez. Desative esta opção para manter as capas estáticas e offline.</string>
+    <string name="settings_romanized_lyrics">Letras romanizadas</string>
+    <string name="settings_romanized_lyrics_hint">Mostra letras em alfabeto latino quando disponíveis</string>
+    <string name="settings_singer_colors">Cores dos cantores</string>
+    <string name="settings_singer_colors_hint">Atribui uma cor a cada cantor em um dueto ou mantém todas as letras brancas</string>
+    <string name="settings_rescan">Verificar biblioteca novamente</string>
+    <string name="settings_rescan_scanning">Verificando…</string>
+    <string name="settings_rescan_up_to_date">Atualizada</string>
+    <string name="settings_rescan_just_now">agora mesmo</string>
+    <plurals name="settings_rescan_added">
+        <item quantity="one">%1$d nova</item>
+        <item quantity="other">%1$d novas</item>
+    </plurals>
+    <plurals name="settings_rescan_removed">
+        <item quantity="one">%1$d removida</item>
+        <item quantity="other">%1$d removidas</item>
+    </plurals>
+    <string name="info_button_description">Sobre %1$s</string>
+
+    <!-- Cores de destaque -->
+    <string name="accent_green">Verde</string>
+    <string name="accent_blue">Azul</string>
+    <string name="accent_red">Vermelho</string>
+    <string name="accent_orange">Laranja</string>
+    <string name="accent_purple">Roxo</string>
+    <string name="accent_mono">Preto e branco</string>
+    <string name="accent_wallpaper">Papel de parede</string>
+    <string name="accent_wallpaper_hint">Combina com as cores do dispositivo</string>
+    <string name="accent_cover">Capa do álbum</string>
+    <string name="accent_cover_hint">Muda de acordo com a música reproduzida</string>
+
+    <!-- Pastas da biblioteca -->
+    <string name="folders_title">Pastas da biblioteca</string>
+    <string name="folders_hint">Desative uma pasta para ocultar suas faixas da biblioteca. Nada será excluído.</string>
+    <string name="folders_all_shown">Todas visíveis</string>
+    <string name="folders_hidden">Ocultas</string>
+    <string name="folders_storage_root">Armazenamento interno</string>
+    <plurals name="folders_hidden_count">
+        <item quantity="one">%1$d oculta</item>
+        <item quantity="other">%1$d ocultas</item>
+    </plurals>
+
+    <!-- Sobre -->
+    <string name="brand_dear_music">Querida música,</string>
+    <string name="brand_thanks">obrigado.</string>
+    <string name="about_version">Versão</string>
+    <string name="about_developer">Desenvolvido por</string>
+    <string name="about_credit_name">Jyotiraditya Panda</string>
+    <string name="about_credit_url" translatable="false">https://github.com/imjyotiraditya</string>
+    <string name="licenses_title">Licenças de código aberto</string>
+    <string name="licenses_hint">O dmt é um software livre sob a GNU GPL v3, desenvolvido com os projetos abaixo. Toque em um deles para ler sua licença.</string>
+    <string name="licenses_bundled">Incluído no dmt</string>
+    <string name="licenses_libraries">Bibliotecas</string>
+    <string name="licenses_material_symbols" translatable="false">Material Symbols</string>
+    <string name="licenses_material_symbols_detail">Ícones · Apache License 2.0</string>
+    <string name="licenses_ffmpeg" translatable="false">FFmpeg</string>
+    <string name="licenses_ffmpeg_detail">Decodificadores de áudio, com o decodificador AC-4 de Paul B Mahol do librempeg · GNU GPL v3</string>
+    <string name="licenses_gpl3" translatable="false">GNU General Public License v3</string>
+    <string name="licenses_plus_jakarta_sans" translatable="false">Plus Jakarta Sans</string>
+    <string name="licenses_plus_jakarta_sans_detail">Fonte tipográfica · SIL Open Font License 1.1</string>
+    <string name="licenses_ofl" translatable="false">SIL Open Font License 1.1</string>
+    <string name="licenses_jellyfin_icon" translatable="false">Jellyfin icon</string>
+    <string name="licenses_jellyfin_icon_detail">Ícone de origem, pelos colaboradores do Jellyfin · CC BY-SA 4.0</string>
+    <string name="licenses_cc_by_sa_4" translatable="false">Creative Commons Attribution-ShareAlike 4.0</string>
+    <string name="licenses_navidrome_logo" translatable="false">Navidrome logo</string>
+    <string name="licenses_navidrome_logo_detail">Ícone de origem, pelos colaboradores do Navidrome · GNU GPL v3</string>
+
+    <!-- Tipos de fonte -->
+    <string name="source_kind_local">Este dispositivo</string>
+
+    <!-- Fontes -->
+    <string name="sources_title">Fontes</string>
+    <string name="sources_hint">De onde vem sua música. Troque quando quiser.</string>
+    <string name="sources_add">Adicionar uma fonte</string>
+    <string name="sources_add_hint">Adicione quantas quiser, até mesmo duas do mesmo tipo.</string>
+    <string name="sources_signed_out">Sessão encerrada</string>
+    <string name="sources_edit">Editar</string>
+    <string name="sources_disconnect">Desconectar</string>
+    <string name="sources_session_ended">Sua sessão em %1$s foi encerrada. Entre novamente em Fontes.</string>
+
+    <!-- Formulário da fonte -->
+    <string name="source_form_title_connect">Conectar %1$s</string>
+    <string name="source_form_title_edit">Editar %1$s</string>
+    <string name="source_form_title_sign_in">Entrar em %1$s</string>
+    <string name="source_form_name_label">Nome</string>
+    <string name="source_form_name_hint">Dê um nome, como Casa</string>
+    <string name="source_form_address_label">Endereço do servidor</string>
+    <string name="source_form_username_label">Nome de usuário</string>
+    <string name="source_form_username_hint">Seu nome de usuário</string>
+    <string name="source_form_password_label">Senha</string>
+    <string name="source_form_password_hint">Sua senha</string>
+    <string name="source_form_password_keep">Deixe vazio para continuar conectado</string>
+    <string name="source_form_connect">Conectar</string>
+    <string name="source_form_connecting">Conectando…</string>
+    <string name="source_form_save">Salvar</string>
+    <string name="source_form_cancel">Cancelar</string>
+    <string name="source_form_remove">Remover</string>
+    <string name="source_form_error_missing">Preencha primeiro o endereço do servidor, o nome de usuário e a senha.</string>
+    <string name="source_form_error_unreachable">Não foi possível acessar o servidor. Verifique o endereço e sua conexão.</string>
+    <string name="source_form_error_rejected">O servidor não aceitou esse nome de usuário ou senha.</string>
+    <string name="source_form_error_token_unsupported">Este servidor não aceita login por token, necessário para que o dmt nunca armazene sua senha.</string>
+
+    <!-- Campos -->
+    <string name="field_password_show">Mostrar senha</string>
+    <string name="field_password_hide">Ocultar senha</string>
+
+    <!-- Permissões -->
+    <string name="permissions_title">Permissões</string>
+    <string name="permissions_hint">As permissões concedidas só podem ser revogadas nas configurações do sistema.</string>
+    <string name="permissions_allow">Permitir</string>
+    <string name="permissions_allow_music">Permitir acesso às músicas</string>
+    <string name="permissions_open_settings">Abrir configurações</string>
+    <string name="permissions_manage">Gerenciar</string>
+    <string name="permission_audio_title">Músicas e áudio</string>
+    <string name="permission_audio_reason">Ler os arquivos de áudio armazenados neste dispositivo.</string>
+    <string name="permission_audio_denied">Sem essa permissão, as músicas deste dispositivo não aparecerão na sua biblioteca.</string>
+    <string name="permission_notifications_title">Notificações</string>
+    <string name="permission_notifications_reason">Mostrar controles de reprodução fora do aplicativo.</string>
+    <string name="permission_notifications_denied">Sem essa permissão, a música continuará tocando, mas sem controles no painel de notificações.</string>
+    <string name="permission_files_title">Todos os arquivos</string>
+    <string name="permission_files_reason">Ler folhas cue e arquivos de letras salvos junto das músicas.</string>
+    <string name="permission_files_denied">Sem essa permissão, álbuns cue serão reproduzidos como uma única faixa longa e os arquivos de letras junto das músicas serão ignorados.</string>
+    <string name="permission_network_title">Rede local</string>
+    <string name="permission_network_reason">Acessar um servidor de mídia na sua rede doméstica.</string>
+    <string name="permission_network_denied">Sem essa permissão, não será possível conectar a um servidor na sua rede doméstica.</string>
+
+    <!-- Configuração inicial -->
+    <string name="setup_stage_hello">Olá</string>
+    <string name="setup_stage_access">Acesso</string>
+    <string name="setup_stage_source">Fonte</string>
+    <string name="setup_stage_ready">Pronto</string>
+    <string name="setup_begin">Começar</string>
+    <string name="setup_back">Voltar</string>
+    <string name="setup_next">Avançar</string>
+    <string name="setup_hello_body">Um reprodutor para as músicas que você já possui. Sem conta, anúncios ou análise de dados. São quatro etapas rápidas e pronto.</string>
+    <string name="setup_access_title">Permita que o dmt encontre suas músicas</string>
+    <string name="setup_access_body">Uma permissão para ler as músicas deste dispositivo. As demais são opcionais.</string>
+    <string name="setup_access_required">Sem acesso a músicas e áudio, as músicas deste dispositivo não aparecerão na sua biblioteca. Você pode permitir isso depois nas Configurações.</string>
+    <string name="setup_source_title">Onde elas estão</string>
+    <string name="setup_source_body">Escolha uma fonte para sua biblioteca. Você pode trocar quando quiser.</string>
+    <string name="setup_source_local_detail">Arquivos armazenados neste dispositivo</string>
+    <string name="setup_signed_in">Conectado a %1$s. Adicione mais servidores quando quiser nas Configurações.</string>
+    <string name="setup_ready_title">Tudo pronto.</string>
+    <string name="setup_ready_body">Tudo aqui pode ser alterado depois nas Configurações.</string>
+    <string name="setup_ready_source">Músicas de: %1$s.</string>
+    <string name="setup_start">Começar a ouvir</string>
+</resources>
